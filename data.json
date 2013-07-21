@@ -1,0 +1,31 @@
+{
+  "areas": [
+    {
+      "mReq":[
+        {
+          "titulo": "Requerimientos de Software",
+          "description": "This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.",
+          "content":"Contenido"
+        }
+      ]      
+    },
+    {
+      "id2":[
+        {
+          "titulo": "Requerimientos de Software2",
+          "description": "This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.",
+          "content":"Contenido"
+        }
+      ]
+    },
+    {
+      "id3":[
+        {
+          "titulo": "Requerimientos de Software3",
+          "description": "This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.",
+          "content":"Contenido"
+        }
+      ]
+    }
+  ]
+}
