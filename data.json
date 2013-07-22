@@ -1,31 +1,80 @@
 {
   "areas": [
     {
+      "mHome":[
+      {
+        "titulo": "SWEBOK, Software Engineering Body of Knowledge",
+        "description": "Es un documento creado por la Software Engineering Coordinating Committee, promovido por la IEEE Computer Society, que se define como una guía al conocimiento presente en el área de la Ingeniería del Software. Supone un paso esencial hacia el desarrollo de la profesión porque representa un amplio consenso respecto a los contenidos de la disciplina."
+      }
+      ],
       "mReq":[
         {
           "titulo": "Requerimientos de Software",
-          "description": "This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.",
-          "content":"Contenido"
-        }
-      ]      
-    },
-    {
-      "id2":[
+          "description": "El área del conocimiento de los requisitos de software (KA), se refiere al análisis, especificación y validación de los requisitos de software. Se ha demostrado ampliamente que el hecho de no realizar bien este proceso trae consecuencias fatales en el desarrollo de cualquier producto de software.",
+            "id1":[
+              {
+                "tGroup":"Fundamentos",
+                "fund":[
+                  {
+                    "name":"Requisitos de Producto",
+                    "content": "Se refiere a generar los parámetros del problema a solucionar para ser traducido a un software."
+                  },
+                  {
+                    "name":"Requisitos de Proceso", 
+                    "content": "Se refiere ya a la parte técnica y a lo que voy a utilizar para realizar el software (lenguaje de programación, por ejemplo)."
+                  },
+                  {
+                    "name":"Requisitos Funcionales",
+                    "content":"Son las capacidades o funciones del software."
+                  },
+                  {
+                    "name": "Requisitos No Funcionales", 
+                    "content":"Son los que actúan para obligar a llegar a la solución pero no son parte integral del software."
+                  },
+                  {
+                    "name":"Características Inesperadas", 
+                    "content":"Son requisitos que se toman pero no pueden comprobarse hasta que esté funcionando el software en condiciones reales."
+                  },
+                  {
+                    "name":"Requisitos del Sistema y de Software", 
+                    "content":"Se refiere a todo lo que necesita el software para funcionar desde el punto de vista de hardware, software, recurso humano, información, instalaciones, servicios, etc.  Los requisitos de software se derivan de los del sistema."
+                  }
+                ]
+              },
+              {
+                "tGroup":"Proceso de los requisitos",
+                "fund":[
+                  {
+                    "name":"Agentes de Proceso", 
+                    "content":"Incluye a todas las personas, usuarias o no, que participan en el desarrollo del proyecto.  Es un grupo interdisciplinario que aporta información para la construcción del software.  Pueden ser usuarios, clientes, analistas de mercado,  reguladores, ingenieros de software, etc."
+                  },
+                  {
+                    "name":"Ayuda y Gerencia de Proceso",
+                    "content": "Se refiere a toda la parte presupuestal y de gerencia para llevar a cabo el proyecto."
+                  },
+                  {
+                    "name":"Calidad y Mejora de Proceso", 
+                    "content":"Se refiere al coste generado por control de calidad y a los niveles de cumplimiento para lograr el objetivo principal y por ende, la satisfacción del cliente."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+      "mDis":[
         {
           "titulo": "Requerimientos de Software2",
           "description": "This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.",
           "content":"Contenido"
         }
-      ]
-    },
-    {
-      "id3":[
+      ],
+      "parts":[
         {
           "titulo": "Requerimientos de Software3",
           "description": "This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.",
           "content":"Contenido"
         }
-      ]
+      ]      
     }
   ]
 }
