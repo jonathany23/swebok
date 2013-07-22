@@ -265,7 +265,18 @@
       "mPru":[
         {
           "titulo": "Pruebas del software",
-          "description": "<p>Es una actividad que permite evaluar y mejorar la calidad del producto con el fin de detectar fallas y corregir errores.</p><p>Las pruebas del software consisten en verificar el comportamiento de un programa dinámicamente a  través de un grupo finito de casos de prueba, debidamente seleccionados.  Se ha ido cambiando la percepción de que las pruebas de software se realizan únicamente al final del proceso de creación de código fuente, siendo muy útil hacerlo en todas las etapas del desarrollo del software;  esto permite corregir errores y detectar fallas de fondo, a tiempo.</p>"
+          "description": "<p>Es una actividad que permite evaluar y mejorar la calidad del producto con el fin de detectar fallas y corregir errores.</p><p>Las pruebas del software consisten en verificar el comportamiento de un programa dinámicamente a  través de un grupo finito de casos de prueba, debidamente seleccionados.  Se ha ido cambiando la percepción de que las pruebas de software se realizan únicamente al final del proceso de creación de código fuente, siendo muy útil hacerlo en todas las etapas del desarrollo del software;  esto permite corregir errores y detectar fallas de fondo, a tiempo.</p>",
+            "id1":[
+          {
+            "tGroup":"",
+            "fund":[
+            {
+              "name":"", 
+              "content":""
+            }
+            ]
+          }
+            ]
         }
       ],
       "mMan":[
