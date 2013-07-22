@@ -13,7 +13,7 @@
           "description": "El área del conocimiento de los requisitos de software (KA), se refiere al análisis, especificación y validación de los requisitos de software. Se ha demostrado ampliamente que el hecho de no realizar bien este proceso trae consecuencias fatales en el desarrollo de cualquier producto de software.",
             "id1":[
               {
-                "tGroup":"Fundamentos",
+                "tGroup":"1. Fundamentos",
                 "fund":[
                   {
                     "name":"Requisitos de Producto",
@@ -42,7 +42,7 @@
                 ]
               },
               {
-                "tGroup":"Proceso de los requisitos",
+                "tGroup":"2. Proceso de los requisitos",
                 "fund":[
                   {
                     "name":"Agentes de Proceso", 
@@ -57,24 +57,634 @@
                     "content":"Se refiere al coste generado por control de calidad y a los niveles de cumplimiento para lograr el objetivo principal y por ende, la satisfacción del cliente."
                   }
                 ]
+              },
+              {
+                "tGroup":"3. Captura de los Requisitos",
+                "fund":[
+                {
+                  "name":"Fuentes de los Requisitos", 
+                  "content":"Deben ser confiables y sometidas a verificación para confirmar que la persona que suministra la información es idónea para hacerlo y que se tomó el tiempo para analizar su conveniencia.  No solo por idoneidad sino porque en ocasiones los usuarios no son buenos escribiendo y no son claros a la hora de hacer una solicitud."
+                },
+                {
+                  "name":"Técnicas de Captura de Requisitos", 
+                  "content":"A menudo, el ingeniero de software utiliza técnicas de captura de requisitos, tales como: •Entrevistas •Prototipos •Reuniones •Observación"
+                }
+                ]
+              },
+              {
+                "tGroup":"4.  Análisis de Requisitos",
+                "fund":[
+                {
+                  "name":"Clasificación de los requisitos", 
+                  "content":"Pueden clasificarse en:•Funcionales o no funcionales •De producto o de proceso •Derivado •Prioritario •Estable o Volátil"
+                },
+                {
+                  "name":"Modelo Conceptual", 
+                  "content":"Se debe elegir un modelo conceptual que ayude a entender de una mejor manera el problema.  Es una habilidad con la que debe contar el ingeniero de software, apoyado en herramientas que le ayuden a contextualizar el software, como el caso de UML o el uso de la matemática discreta.  La IEEE tiene tres estándares para el modelado. "
+                },
+                {
+                  "name":"Asignación Arquitectónica del Diseño y los Requisitos", 
+                  "content":"Es la fusión de toda la parte de requisitos con la parte de diseño.  Es inseparable esta combinación; una es parte integral de la otra y es fácil su comprensión, apoyándose en el modelo conceptual.  El estándar IEEE Std 1471-2000  puede servir de apoyo en esta práctica."
+                },
+                {
+                  "name":"Negociación de los requisitos", 
+                  "content":"Se llega a esta etapa cuando hay incompatibilidad en dos o más requisitos y los solicitantes son distintos.  El ingeniero de software debe reunirlos y tomar la decisión más conveniente para el correcto funcionamiento de la solución."
+                }
+                ]
+              },
+              {
+                "tGroup":"5.  Especificación de Requisitos",
+                "fund":[
+                {
+                  "name":"Especificación de Requisitos", 
+                  "content":"Se refiere a plasmar en un documento todos los requisitos aprobados.  Someterlos a verificación por parte de los actores del proyecto."
+                },
+                {
+                  "name":"Documentos",
+                  "content":"• Definición del sistema o documento de exigencias • Requisitos de sistema • Requisitos de software"
+                }
+                ]
+              },
+              {
+                "tGroup":"6.  Validación de los Requisitos",
+                "fund":[
+                {
+                  "name":"Revisiones de los requisitos", 
+                  "content":"Se nombra un comité revisor, que incluye a un representante del cliente, con el fin de evaluar los documentos ya mencionados. El estándar IEEE Std 1028 proporciona ayuda valiosa en la tarea de revisión."
+                },
+                {
+                  "name":"Prototipado", 
+                  "content":"Es un medio que utiliza el ingeniero de software para manifestar lo que entendió y para facilitar la corrección, eliminación o adición de requisitos.  Como se evidencia, la ventaja de hacerlo es grande pero el costo puede ser alto."
+                },
+                {
+                  "name":"Pruebas de Aceptación", 
+                  "content":"Son aquellas que se le aplican a cada requisito para determinar si el producto final lo satisface o no.  Debe haber total planeación para aplicar estas pruebas y hacerlo de manera cuantitativa."
+                }
+                ]
               }
             ]
           }
         ],
       "mDis":[
         {
-          "titulo": "Requerimientos de Software2",
-          "description": "This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.",
-          "content":"Contenido"
+          "titulo": "Diseño de software",
+          "description": "Es definido por la  IEEE como el proceso para definir la arquitectura, los componentes, las interfaces y otras características de un sistema.  Visto como proceso, el diseño del software es la actividad del ciclo de vida en la cual se analizan los requisitos del software para producir una descripción de su estructura interna que servirá como base para su construcción.",
+          "id1":[
+          {
+            "tGroup":"1. Fundamentos",
+            "fund":[
+            {
+              "name":"Proceso de diseño de software", 
+              "content":"Se divide en dos etapas:<ul><li>Diseño Arquitectónico</li><li>Diseño Detallado</li></ul>Existen técnicas permisibles que permiten hacer un acercamiento al diseño de software.  Estas son  algunas:<ul><li>Abstracción</li><li>Acoplador y Cohesión</li><li>Descomposición y Modularización</li><li>Encapsulación</li><li>Separación de la interfaz y de la puesta en práctica</li><li>Desahogo</li><ul>"
+            }
+            ]
+          },
+          {
+            "tGroup":"2.  Cuestiones claves del diseño de software",
+            "fund":[
+            {
+              "name":"Concurrencia", 
+              "content":"Se refiere a cómo descomponer el software en procesos, tareas, hilos de reparto y que conserve la sincronización en los procesos."
+            },
+            {
+              "name":"Distribución de Componentes", 
+              "content":"Como integrar cada parte del software con el hardware necesario para su funcionamiento."
+            },
+            {
+              "name":"Dirección del Error y de Excepción y Tolerancia a Fallos", 
+              "content":"Define las técnicas para prevenir y tolerar fallos en el momento en que se presenten."
+            },
+            {
+              "name":"Interacción y Presentación",
+              "content":"Se refiere a la forma de mostrar y organizar las interacciones con los usuarios y la forma de documentarlas."
+            }
+            ]
+          },
+          {
+            "tGroup":"3.  Estructura y Arquitectura de Software",
+            "fund":[
+            {
+              "name": "",
+              "content": "Es una descripción de los subsistemas y de los componentes de un sistema de software y de las relaciones entre ellos."
+            }
+            ]
+          },
+          {
+            "tGroup":"4.  Análisis y Evaluación de la Calidad del Diseño de Software",
+            "fund":[
+            {
+              "name": "",
+              "content": "Esta parte es importante porque asegura la calidad del proceso de diseño.  Se utilizan métricas que permiten estimar de manera cuantitativa varios aspectos del tamaño, estructura o de la misma calidad del software.  Estas pueden ser estructuradas u orientadas a objetos."
+            }
+            ]
+          },
+          {
+            "tGroup":"5.  Notaciones del Diseño de Software",
+            "fund":[
+            {
+              "name": "",
+              "content": "<p>Generalmente son gráficas y permiten modelar en un diagrama la propuesta de diseño.  Entre ellos están los diagramas de clases y objetos, de componentes, de despliegue, de entidad-relación, de estructura de Jackson, de estructura de cartas y diferentes lenguajes que permiten describir la arquitectura del software y sus componentes.</p><p>También existe la notación para las descripciones de comportamiento dinámico del software, en las cuales también se usan diagramas y lenguajes textuales.  Entre ellos están los diagramas de actividad, de colaboración, organigrama de datos, tablas y diagramas de decisión, de secuencia, de transición de estado y diagramas de estado de carta, lenguajes de diseño en pseudocódigo, etc.</p>"
+            }
+            ]
+          },
+          {
+            "tGroup":"6.  Estrategias y Métodos del Diseño de Software",
+            "fund":[
+            {
+              "name": "",
+              "content": "Permiten dirigir el proceso de diseño.  La estrategia está en términos generales y los métodos deben ser específicos.  Aquí se inicia la aplicación del paradigma Divide y Vencerás y el proceso de refinamiento.  Se define también si se va a utilizar el diseño estructurado u orientado a objetos o basado en componentes."
+            }
+            ]
+          }
+          ]
         }
       ],
-      "parts":[
+      "mCons":[
         {
-          "titulo": "Requerimientos de Software3",
-          "description": "This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.",
-          "content":"Contenido"
+          "titulo": "Construcción  del software",
+          "description": "Es definido por la  IEEE como el proceso para definir la arquitectura, los componentes, las interfaces y otras características de un sistema.  Visto como proceso, el diseño del software es la actividad del ciclo de vida en la cual se analizan los requisitos del software para producir una descripción de su estructura interna que servirá como base para su construcción.",
+          "id1":[
+          {
+            "tGroup":"1. Fundamentos",
+            "fund":[
+            {
+              "name":"Proceso de diseño de software", 
+              "content":"La construcción del software tiene como objetivos los siguientes:<ul><li>Minimizar la complejidad</li><li>Anticiparse a los cambios</li><li>Construir para verificar</li><li>Aplicación de estándares en la construcción</li></ul>"
+            }
+            ]
+          },
+          {
+            "tGroup":"2.  Gestión de la Construcción",
+            "fund":[
+            {
+              "name":"Modelos de Construcción", 
+              "content":"Los más conocidos y utilizados son los modelos de ciclo de vida en cascada y de entrega por etapas.  Estos modelos son robustos pero solo  son eficientes si se ha hecho un buen trabajo en la etapa de requisitos y de diseño.  Por el contrario, los modelos prototipado evolucionista, programación extrema y “Scrum”, son más flexibles en este tema, dado que son iterativos y permiten, de manera cíclica, realizar cambios, al combinar las tres etapas iniciales del desarrollo de un proyecto de software."
+            },
+            {
+              "name":"Planificación de la Construcción", 
+              "content":"En todo proyecto, la planificación es vital.  Es aquí donde se delimita la aplicación de requisitos, en qué orden se irán tomando y que grado de cumplimiento tienen, con respecto al objetivo principal del proyecto.  De ahí la importancia de elegir un modelo de ciclo de vida acorde a los requerimientos."
+            },
+            {
+              "name":"Medición de la Construcción", 
+              "content":"Se refiere a los procedimientos utilizados para medir la eficiencia del código fuente, en lo que se refiere a extensión, código reutilizado, código destruido, complejidad de código, estadísticas de inspección de código, tasas de rectificación y corrección de errores y los horarios.  Esto asegura el control de la calidad."
+            }
+            ]
+          },
+          {
+            "tGroup":"3.  Consideraciones Prácticas",
+            "fund":[
+            {
+              "name":"Lenguajes de Construcción", 
+              "content":"Son todos los tipos de comunicación mediante los cuales un ser humano puede especificar una solución ejecutable para un problema de un ordenador.  Pueden ser de configuración, de herramientas y de programación.  Estos últimos, a su vez, están divididos en lingüísticos, formales y visuales."
+            },
+            {
+              "name":"Pruebas de Construcción", 
+              "content":"Generalmente son realizadas por el profesional que realizó el código.  Pueden ser unitarias o de integración.  Su propósito es reducir el tiempo entre el ingreso de fallas en el código y el tiempo que se puede demorar su detección.  Para tal fin, las normas estándar IEEE  Std 829-1998 para documentación de pruebas y la IEE Std 1008-1987 para pruebas unitarias, pueden ser de gran utilidad."
+            },
+            {
+              "name":"Reutilización", 
+              "content":"Definir de manera objetiva, que parte del código puede ser eficientemente reutilizado para minimizar tiempos de entrega, además debe ser reportado a las personas que lideran el proyecto, por qué y para que se va a reutilizar, ya que esto puede modificar el valor del proyecto."
+            },
+            {
+              "name":"Calidad de la Construcción", 
+              "content":"Existen varias técnicas para evaluar la calidad en la construcción del código fuente de un proyecto de software. "
+            },
+            {
+              "name":"Las pruebas unitarias y de integración", 
+              "content":"<ul><li>El código paso a paso</li><li>Utilización de aserciones</li><li>Depuración</li><li>Revisiones técnicas</li><li>Análisis estático</li></ul>"
+            },
+            {
+              "name":"Integración", 
+              "content":"Una parte clave del proceso de construcción es la integración de las clases, componentes, rutinas, subsistemas que han sido construidos por separado, sobre todo si hay implicaciones técnicas de software o hardware."
+            }
+            ]
+          }
+          ]
         }
-      ]      
+      ],
+      "mPru":[
+        {
+          "titulo": "Pruebas del software",
+          "description": "<p>Es una actividad que permite evaluar y mejorar la calidad del producto con el fin de detectar fallas y corregir errores.</p><p>Las pruebas del software consisten en verificar el comportamiento de un programa dinámicamente a  través de un grupo finito de casos de prueba, debidamente seleccionados.  Se ha ido cambiando la percepción de que las pruebas de software se realizan únicamente al final del proceso de creación de código fuente, siendo muy útil hacerlo en todas las etapas del desarrollo del software;  esto permite corregir errores y detectar fallas de fondo, a tiempo.</p>"
+        }
+      ],
+      "mMan":[
+        {
+          "titulo": "Mantenimiento de software",
+          "description": "El proceso de desarrollo de software debe satisfacer los requerimientos planteados, una vez en operación el proceso de cubrimiento de defectos, operación y cambio de ambiente debe darse en esta etapa, la fase de mantenimiento empieza con un periodo de garantía y de soporte  post-implementación pero el mantenimiento del software ocurre mucho antes.",
+          "id1":[
+          {
+            "tGroup":"1.  Aspectos Fundamentales en el mantenimiento del software",
+            "fund":[
+            {
+              "name":"1.1 Definiciones y terminología:", 
+              "content":"<p>Está  definido en el estándar de la IEEE 1219 como la modificación del producto de software después de la entrega para corregir las faltas, también se encarga de direccionar las actividades de mantenimiento para darle prioridad a la entrega del producto.</p><p>El estándar IEEE/EIA 12207 define el mantenimiento como uno de los procesos principales en el ciclo de vida del software, el objetivo es modificar el software existente preservando su integridad también lo hacen en estos mismos términos la ISO/IEC 14764 este enfatiza en las entregas previas para la planeación del mantenimiento del software.</p>"
+            },
+            {
+              "name":"1.2 Naturaleza del mantenimiento:", 
+              "content":"El mantenimiento de software debe estar dentro del ciclo de vida operacional, un mantenimiento esta definido por la IEEE/EIA 12207 como las actividades de mantenimiento que permiten el desempeño correcto."
+            },
+            {
+              "name":"1.3 Necesidad de mantenimiento:", 
+              "content":"La necesidad de mantenimiento se da para garantizar que el software cumple satisfactoriamente con los requerimientos solicitados, este se aplica a cualquier desarrollo independiente del modelo de ciclo de vida utilizado, el mantenimiento se da en orden de alcanzar el desempeño adecuado."
+            },
+            {
+              "name":"", 
+              "content":"<ul><li>Corregir fallas.</li><li>Improvisar el diseño.</li><li>Implementar correcciones.</li><li>Interfaces con otros sistemas.</li><li>Adaptar programas a diferentes tipos de hardware, software, configuración del sistema y facilidad de uso de telecomunicaciones.</li><li>Migración legal de software.</li><li>Retiro de software.</li></ul>"
+            },
+            {
+              "name":"1.4 Costos Mayoritarios de mantenimiento:", 
+              "content":"Los costos de mantenimiento de software son los mas costosos en todo el ciclo de vida del software, estudios recientes han demostrado que más del 80% del mantenimiento de software es usado para acciones correctivas  hay que entender la categoría del mantenimiento del software para entender la estructura del costo de mantenimiento, entendiendo los factores que influyen en el costo se puede ayudar a contener dichos costos."
+            },
+            {
+              "name":"1.5 Evolución del software", 
+              "content":"En 1969 Lehman direcciono el mantenimiento del software y la evolución de los sistemas, durante 20 años se mantuvo su idea de la formulación de ocho “Leyes de la evolución”  donde se mantuvo la idea de la evolución en el mantenimiento del software para continuar con el desarrollo."
+            }
+            ]
+          },
+          {
+            "tGroup":"2.  Factores claves en el mantenimiento del software",
+            "fund":[
+            {
+              "name":"", 
+              "content":"Un numero de factores claves debemos tener presentes para asegurar el mantenimiento efectivo del software, es importante comprender que el mantenimiento de software nos proporciona una técnica única en los desafíos de administración para los ingenieros de software, podemos apreciar como se planean las liberaciones posteriores así como los parches generados para las versiones anteriores"
+            }
+            ]
+          },
+          {
+            "tGroup":"3.  Proceso de mantenimiento",
+            "fund":[
+            {
+              "name":"", 
+              "content":"Provee referencias y estándares utilizados para implementar el proceso de mantenimiento de software. Las actividades de mantenimiento son diferenciadas por el desarrollo mostrado en la relación a las actividades de ingeniería de otro software."
+            }
+            ]
+          }
+          ]
+        }
+      ],
+      "mGC":[
+        {
+          "titulo": "Gestión de la configuración del software",
+          "description": "La administración de configuración es la disciplina encargada de identificar la configuración general de un sistema para así mantener su confiabilidad, adaptabilidad y configuración a los diferentes ciclos de vida. Está formalmente definida por la IEEE610.12-90 como “Disciplina aplicada de manera técnica y administrativa para la dirección y supervivencia para: Identificar y documentar las características físicas y funcionales de la configuración de los elementos, control en el cambio de sus características grabar y reportar cambios en el proceso de implementación así como su estado  y verificación del cumplimiento de sus requerimientos específicos”.",
+          "id1":[
+          {
+            "tGroup":"1.  Administración de los procesos SCM",
+            "fund":[
+            {
+              "name":"1.1 Contexto Organizacional del SCM", 
+              "content":"Para desarrollar un plan SCM es necesario conocer detalladamente los procesos de la organización ya que el SCM interactúa directamente con todos los elementos y actividades organizacionales."
+            },
+            {
+              "name":"1.2 Constantes y guía para el proceso SCM",
+              "content": "Esto proviene de un gran numero de fuentes tiene que ver con las políticas de la organización y su influencia en la administración de los procesos."
+            },
+            {
+              "name": "1.3  Planeación del SCM",
+              "content": "El proceso de planeación debe ser consistente con el contexto organizacional, y la naturaleza del proyecto (por ejemplo el tamaño y su crítica) las actividades más importantes en este contexto son: control de configuración, control de estado, control de auditoría, control de liberaciones y entregas así como las herramientas de configuración y control y sus interfaces consideradas."
+            },
+            {
+              "name": "1.4  Plan de la SCM",
+              "content": "Los resultados de planeación del proyecto son guardados en un plan de gestión y configuración del software, el documento se mantiene y se actualiza o aprueba según sea necesario a lo largo del ciclo de vida del software. También es muy útil hacer mediciones constantes a los procesos para hacer los cambios y/o actualizaciones correspondientes."
+            },
+            {
+              "name": "1.5  Seguimiento de la gestión de la configuración del software",
+              "content": "Después del cumplimiento del proceso de la SCM puede ser necesario un cierto nivel de seguimiento para asegurarse que los procesos SCM se llevan a cabo adecuadamente, este seguimiento puede hacer parte de un proceso de auditoría para garantizar la calidad del software."
+            }
+            ]
+          },
+          {
+            "tGroup":"2.  Identificación de la configuración del software",
+            "fund":[
+            {
+              "name":"2.1 Identificar elementos a ser controlados", 
+              "content":"Un primer paso sería identificar cambios en los elementos de software que serán controlados para entender la configuración del software en el contexto del sistema."
+            },
+            {
+              "name":"2.2 Biblioteca de software", 
+              "content":"Colección controlada de software así como de sus documentos relacionados y está relacionada para ayudar en el desarrollo de software, ahí diferentes tipos y nos pueden ayudar en diferentes etapas, son también una fuente importante de información para mediciones del trabajo realizado y del progreso."
+            }
+            ]
+          },
+          {
+            "tGroup":"3.  Control de la configuración del software",
+            "fund":[
+            {
+              "name":"3.1 Petición, evaluación y aprobación de cambios del software", 
+              "content":"El primer paso es determinar los cambios a realizar, se evalúa el coste e impacto del cambio propuesto se acepta o rechaza dicho cambio, este se origina en cualquier momento del ciclo de vida y puede incluir una solución propuesta y una prioridad."
+            },
+            {
+              "name":"3.2 Implementando cambios en el software", 
+              "content":"Se implementan utilizando los procesos de software definidos de acuerdo con los requerimientos de planificación aplicables. Podrían sufrir auditorías de configuración y verificación de la calidad del software. Esta soportada por las herramientas de la biblioteca que proporcionan gestión de versiones y soporte para el almacenamiento de código."
+            },
+            {
+              "name":"3.3 Desviaciones y Remisiones",
+              "content": "Las limitaciones que se imponen al esfuerzo de la ingeniería del software podrían contener necesidades que no pueden ser satisfechas en el punto designado del ciclo de vida. Una remisión es una autorización para abandonar una necesidad antes del desarrollo del elemento."
+            }
+            ]
+          },
+          {
+            "tGroup":"4.  Registro del estado de la configuración del Software",
+            "fund":[
+            {
+              "name":"4.1 Información del estado de la configuración del software", 
+              "content":"Genera un conjunto de informes durante el ciclo de vida, se encarga de recoger y mantener la información del estado de la configuración que se ha de gestionar según las configuraciones evolucionan. Es necesario algún tipo de soporte de herramientas automáticas para llevar a cabo las tareas de recogida de datos y generación de informes de la SCSA."
+            },
+            {
+              "name":"4.2 Reportes del estado de la configuración del software", 
+              "content":"Los reportes pueden ser usados  para los elementos del proyecto de la organización, incluyendo el equipo de desarrollo, administración de proyectos y actividades de calidad del software. También sirve para responder algunas preguntas específicas de la etapa de producción."
+            }
+            ]
+          },
+          {
+            "tGroup":"5.  Auditoría de la configuración de software",
+            "fund":[
+            {
+              "name":"5.1 Auditoria funcional de la configuración del software", 
+              "content":"El propósito es asegurar la consistencia en los elementos  de software auditados. La salida de la verificación y validación del software es la clave de entrada de este tipo de auditoría."
+            },
+            {
+              "name":"5.2 Auditoría de la configuración física del software", 
+              "content":"El propósito es asegurar que el diseño y la documentación de referencia es consistente con la construcción del producto de software."
+            },
+            {
+              "name": "5.3  Auditoría durante el proceso de una línea base de software",
+              "content": "Como lo mencionado puede ser llevado durante el proceso de desarrollo para investigar el estado actual de los elementos específicos de la configuración. La auditoría es aplicada a los elementos de la línea base para asegurar el desempeño que sea consistente con las especificaciones."
+            }
+            ]
+          },
+          {
+            "tGroup":"6.  Administración de las entregas y liberaciones de software",
+            "fund":[
+            {
+              "name":"", 
+              "content":"El término “liberación” es usado en este contexto para referirnos a las distribuciones de software y los elementos en las actividades de desarrollo. Eso incluye liberaciones internas y correcciones a las variantes de estos elementos. La información y documentación entregada en las liberaciones es conocida como el documento descriptivo, este incluye los contenidos de instalación y instrucciones de actualización."
+            }
+          ]
+        }
+        ]
+      }
+      ],
+      "mDIS":[
+        {
+          "titulo": "Gestión de la ingeniería del software",
+          "description": "Puede ser definida como las actividades de gestión  de la aplicación, planeación, coordinación, medición, monitorización, control y reportes para asegurar el desarrollo y mantenimiento del software como sistemático, disciplinado y cuantificable.",
+          "id1":[
+          {
+            "tGroup":"1.  Iniciación y Alcance",
+            "fund":[
+            {
+              "name":"", 
+              "content":"Se centra en la determinación eficaz de los requisitos del software por medio de varios métodos de inducción y la valoración de la viabilidad del proyecto desde distintos puntos de vista, una vez establecida la viabilidad, la tarea pendiente es la especificación de la validación de requisitos y del cambio de procedimientos."
+            }
+            ]
+          },
+          {
+            "tGroup":"2.  Planificación de un Proyecto de Software",
+            "fund":[
+            {
+              "name":"2.1 Planificación de un Proceso", 
+              "content":"La selección de un modelo de ciclo de vida o la adaptación de un despliegue de ciclos se emprenden a la luz del alcance particular y de los requisitos del proyecto. También se seleccionan métodos y herramientas pertinentes."
+            },
+            {
+              "name":"2.2 Determinar los entregables", 
+              "content":"Se especifica y caracteriza los productos de cada tarea, se evalúa la posibilidad de reutilizar componentes de desarrollos anteriores y se planifica la utilización de terceras personas y del software obtenido y se seleccionan los proveedores."
+            },
+            {
+              "name":"2.3 Esfuerzo, calendario y cálculo del coste", 
+              "content":"Se determina el rango de esfuerzo esperado, utilizando un modelo de estimación calibrado, basado en datos históricos sobre el esfuerzo empleado."
+            },
+            {
+              "name":"2.4 Reparto de recursos", 
+              "content":"Los equipos, medios y personas se asocian a las tareas programadas, esta actividad está regulada y limitada por la disponibilidad de los recursos y su uso óptimo bajo estas circunstancias."
+            },
+            {
+              "name":"2.5 Gestión de Riesgos", 
+              "content":"Se completa el análisis de riesgos, la valoración crítica de riesgos, la mitigación de riesgos y la planificación de contingencias."
+            },
+            {
+              "name":"2.6 Gestión de calidad", 
+              "content":"Se define en términos de atributos pertinentes del proyecto y en los de cualquier producto asociado a él, tanto en términos cualitativos como cuantitativos."
+            },
+            {
+              "name":"2.7 Gestión de planes", 
+              "content":"Los informes, la supervisión y el control del proyecto deben encajar en el proyecto de ingeniería del software seleccionado y en las realidades del proyecto y deben reflejarse los artefactos que lo gestionarán."
+            }
+            ]
+          },
+          {
+            "tGroup":"3.  Promulgación del proyecto de Software",
+            "fund":[
+            {
+              "name":"", 
+              "content":"Se ejecutan los planes y se divulgan los procesos incluidos en los planes, en este proceso hay total expectativa de la adhesión plena de los requisitos del contratista y el logro de los objetivos del proyecto, son actividades fundamentales para la promulgación la gestión, medición, supervisión, control e información del proyecto."
+            }          
+          ]
+        },
+        {
+            "tGroup":"4.  Revisión y Evaluación",
+            "fund":[
+            {
+              "name":"4.1 Determinar la satisfacción de los requisitos", 
+              "content":"Determinar que el objetivo principal se está cumpliendo es primordial ya que lo que nos interesa es la satisfacción del usuario o contratista esto se debe hacer periódicamente. Se deben identificar las variaciones a las expectativas para llevar a cabo las acciones adecuadas. También se debe gestionar el control de cambios a los procedimientos y a la configuración del software."
+            },
+            {
+              "name":"4.2 Revisar y Evaluar la Ejecución", 
+              "content":"Las revisiones periódicas a lo realizado nos proporcionan detalles sobre la probabilidad de ser fiel a los planes, así como las posibles áreas de dificultad, aquí se evalúan los diferentes métodos, herramientas y técnicas empleadas para ver su eficacia y adecuación y se evalúa constantemente la eficacia de los procesos para ver su utilidad en el contexto del proyecto, cuando sea necesario se gestionan y se llevan a cabo los cambios."
+            }          
+          ]
+        },
+        {
+          "tGroup":"5.  Cierre",
+            "fund":[
+            {
+              "name":"5.1 Determinar el cierre", 
+              "content":"Se logran los objetivos del proyecto y estos procesos por lo general involucran a los contratistas y acaban con la documentación y de los informes de cualquier otro problema pendiente conocido."
+            }
+            ]
+          },
+          {
+          "tGroup":"6.  Medidas de la ingeniería del software",
+            "fund":[
+            {
+              "name":"6.1 Establecer y sostener el compromiso de medir", 
+              "content":"Se deben tener ciertos compromisos de medición establecidos, además de requisitos que midan los factores que contribuyen a un objetivo en particular para así gestionar los proyectos y hacerle frente a este objetivo."
+            },
+            {
+              "name":"6.2 Planificar el proceso de medición", 
+              "content":"Para esto es necesario identificar la unidad funcional a la cuál se le está aplicando para que sea caracterizada y así identificar las necesidades de información para proceder con los objetivos primordiales y sus respectivas prioridades."
+            },
+            {
+              "name":"6.3 Evaluar las mediciones",
+              "content": "Este proceso se debe llevar a cabo con un criterio de evaluación específico para determinar las fuerzas y debilidades de los productos, se puede hacer por medio de un proceso de auditoría interna o externa y debe incluir una retroalimentación a los usuarios."
+            }
+            ]
+          }
+        ]
+        }
+      ],
+      "mPIS":[
+        {
+          "titulo": "Proceso de ingeniería del software",
+          "description": "Se puede examinar en dos niveles desde lo técnico y desde el meta-nivel o nivel de implementación, valoración, medición y gestión. Existen varios significados sobre el proceso de la ingeniería del software puede verse como una sola manera de realizar el proceso o como muchas maneras que es lo que se quiere y se debe llegar a hacer ya que el proceso de la ingeniería abarca muchos factores, finalmente un tercer significado se refiere al conjunto actual de actividades realizadas dentro de una organización que se puede ver como un solo proceso.",
+          "id1":[
+          {
+            "tGroup":"1.  Proceso de implementación y cambios",
+            "fund":[
+            {
+              "name":"1.1 Infraestructura del proceso", 
+              "content":"Es necesario que la infraestructura este en su lugar, es decir que los recursos estén al alcance de la mano y que se hayan asignado responsabilidades, es posible que se tengan que establecer comités para supervisar el esfuerzo del proceso de ingeniería del software."
+            }
+            ]
+          },
+          {
+            "tGroup":"2.  Definición de procesos",
+            "fund":[
+            {
+              "name":"", 
+              "content":"Pueden ser unos lineamientos, políticas o estándares se definen para facilitar el entendimiento en la comunicación humana, apoyar y mejorar procesos , se deben considerar algunas variaciones como la naturaleza del trabajo, el dominio de la aplicación, el modelo de ciclo de vida y la madurez de la organización."
+            }
+            ]
+          },
+          {
+            "tGroup":"3.  Valoración del proceso",
+            "fund":[
+            {
+              "name":"3.1 Modelos de valoración del proceso", 
+              "content":"Recoge lo que se conoce como las buenas prácticas en el proceso de gestión de la ingeniería del software, la ISO define un modelo ejemplo de valoración y de requisitos, se han desarrollado también un modelo de madurez para sistemas de ingeniería que resulta útil cuando un proceso está implicado en el desarrollo y mantenimiento de un sistema incluyendo el software."
+            },
+            {
+              "name":"3.2 Métodos de valoración del proceso", 
+              "content":"Es garantizar un método cuantitativo que evaluara los procesos, existen de varios tipos dónde se valoran distintos tópicos todos pensados en las mejoras de los procesos y la eficacia en la organización."
+            }
+            ]
+          },
+          {
+            "tGroup":"4.  Medición de los procesos y los productos",
+            "fund":[
+            {
+              "name":"4.1 Medición del proceso", 
+              "content":"Se recoge, analiza e interpreta información cuantitativa sobre el proceso, se utiliza para identificar la fuerza y debilidad en ellos y así mismo evaluarlos después de haber sido implementados o cambiados."
+            },
+            {
+              "name":"", 
+              "content":"La medición de un producto software incluye principalmente, la medición del tamaño del producto, la estructura del producto y la calidad del producto."
+            }
+            ]
+          }
+          ]
+        }
+      ],
+      "mISHM":[
+        {
+          "titulo": "Instrumentos y métodos de la ingeniería del software",
+          "description": "Son los instrumentos asistidos por ordenador que son requeridos para ayudar a los procesos de ciclo de vida del software, nos ayuda a reducir la carga cognoscitiva enfocándonos más en los aspectos creativos del proceso.",
+          "id1":[
+          {
+            "tGroup":"1.  Las herramientas de ingeniería de Software",
+            "fund":[
+            {
+              "name":"1.1 Las Herramientas de exigencias de Software", 
+              "content":"Han sido clasificados en dos categorías: modelado e instrumentos de capacidad de rastreo.<ul><li><b>Exigencias de los instrumentos de  modelado:</b>Son usados para la obtención, análisis, especificación y validez de las exigencias de software.</li><li><b>Exigencias de los instrumentos de capacidad de Rastreo:</b> Se hacen cada vez más importantes debido a que la complejidad del software crece, son presentados separadamente de los instrumentos de modelado.</li>"
+            },
+            {
+              "name":"1.2 Las Herramientas de Diseño de Software", 
+              "content":"Cubre los instrumentos para crear y comprobar diseños de software, existe gran variedad de estos gracias a la diversidad en las notaciones de diseño de software y métodos, a pesar de esta variedad no se ha encontrado una división convincente."
+            },
+            {
+              "name":"1.3 Las Herramientas de Construcción de Software", 
+              "content":"Son instrumentos usados para producir y traducir la representación de programa máquina, se utilizan los redactores de programa, compiladores y generadores de código, intérpretes y depuradores."
+            },
+            {
+              "name":"1.4 Herramientas de Pruebas de Software", 
+              "content":"Se incluyen: Generadores de Pruebas, marcos de ejecución de pruebas, herramientas de evaluación de pruebas, herramientas de dirección de pruebas y de análisis y de funcionamiento, todas estas están enfocadas a la prueba del software construido así como de su funcionalidad, versatilidad y calidad."
+            },
+            {
+              "name":"1.5 Herramientas de Mantenimiento de Software", 
+              "content":"Abarca los instrumentos utilizados para el mantenimiento de software, dos categorías son identificadas: instrumentos de comprensión y instrumentos de reingeniería. <br><b>Herramientas de comprensión:</b> Ayudan a la comprensión humana de programas, se incluyen instrumentos como animadores o rebanadores. <br><b>Herramientas de reingeniería:</b> Es definido como el examen y la alteración del software sustancial para reconstruirlo de una nueva forma."
+            },
+            {
+              "name":"1.6 Las herramientas de dirección de configuración de Software", 
+              "content":"Han sido dividas en tres categorías: rastreo, dirección de versión e instrumentos de liberación.<ul><li><b>Rastreo:</b> Son elementos utilizados en la conexión con las cuestiones que rastrean problemas asociados con un producto de software particular.</li><li><b>Herramientas de dirección de versión:</b> Están implicados en la dirección de múltiples versiones de un producto.</li><li><b>Herramientas de liberación y construcción:</b> Son usados para las tareas de liberación y construcción de un software incluye instrumentos de instalación que son extensamente utilizados para configurar la instalación de un producto software.</li><ul>"
+            },
+            {
+              "name":"1.7 Herramientas de dirección en la Ingeniería de Software", 
+              "content":"Esta subdivido en tres categorías: planificación de proyecto y rastreo, manejo arriesgado, y medida. En la primera se busca una medida de esfuerzo en el proyecto y cuenta la valoración así como la planificación del proyecto, en la segunda se identifican la estimación y riesgos de supervisión, finalmente en la medida se asiste la realización de actividades relacionadas con el programa de medida de software."
+            },
+             {
+              "name":"1.8 Las Herramientas de proceso de ingeniería de Software", 
+              "content":"Está divida en instrumentos que modelan, instrumentos de dirección y ambientes de desarrollo de software."
+            },
+            {
+              "name":"1.9 Las herramientas de Calidad de Software", 
+              "content":"En las herramientas de revisión de auditoria se apoyan en revisión y revisiones de cuenta y en las de análisis estáticos se analizan artefactos de software como analizadores sintácticos y semánticos así como datos, el flujo de control y analizadores de dependencia."              
+            },
+            {
+              "name":"1.10  Cuestiones de Instrumento Compuestas", 
+              "content":"Cubre el tema aplicable a todas las clases de instrumentos, tres categorías identificadas: técnicas de integración de instrumentos, meta-instrumentos, y evaluación de instrumento."
+            }
+            ]
+          },
+          {
+            "tGroup":"2.  Los Métodos de la Ingeniería del Software",
+            "fund":[
+            {
+              "name":"2.1 Métodos Heurísticos", 
+              "content":"Este tema contiene cuatro categorías: estructurado, orientado a datos, orientado a objetos, y específico de dominio. La última incluye métodos especializados para desarrollar los sistemas que implican en tiempo real aspectos relacionados con la seguridad. En el método estructurado se ve desde un punto de vista funcional para refinarlo y hacerlo cada vez más detallado. En el orientado a datos se estructura el programa y se manipula. En el orientado a objetos el sistema es visto como una colección de objetos más que de funciones."
+            },
+            {
+              "name":"2.2 Métodos Formales", 
+              "content":"Aquí se describe como el software se basa en métodos de ingeniería basado matemáticamente y se subdivide según varios aspectos de métodos formales entre ellos: <br><b>Especificación del lenguaje y notaciones:</b> Aquí se especifica la lengua usada y se clasifica según la orientación del modelo las características o el comportamiento. <br><b>Refinamiento:</b> Aquí se trata como de refinar o transformar las  especificaciones en una forma más cercana a la deseable en un programa finalmente ejecutable. <br><b>Propiedades de Verificación/Confirmación:</b> Aquí se incluyen confirmaciones de teorema y la comprobación del modelo."
+            },
+            {
+              "name":"2.3 Métodos de Prototipado", 
+              "content":"Cubre métodos que implican el prototipazo de software y es subdivida en estilos de prototipazo, objetivos y técnicas de evaluación. Se deben incluir aspectos como: Estilos de prototipazo, objetivos del prototipazo, y las técnicas para la evaluación del prototipo propuesto."
+            }
+            ]
+          }
+          ]
+        }
+      ],
+      "mCal":[
+        {
+          "titulo": "Calidad del software",
+          "description": "En este capítulo se abordan los aspectos relativos a la calidad del software los cuales trascienden en cualquier ciclo de vida, en esta guía se describen un conjunto de métodos para alcanzar la calidad, en este caso se trataran las técnicas estáticas es decir aquellas que no requieren la ejecución del software para su evaluación mientras las dinámicas cubren los aspectos de calidad en las pruebas del software.",
+          "description": "Son los instrumentos asistidos por ordenador que son requeridos para ayudar a los procesos de ciclo de vida del software, nos ayuda a reducir la carga cognoscitiva enfocándonos más en los aspectos creativos del proceso.",
+          "id1":[
+          {
+            "tGroup":"1.  Fundamentos de Calidad del Software",
+            "fund":[
+            {
+              "name":"1.1 Modelos y Características de Calidad", 
+              "content":"La terminología usada en las características difiere de una taxonomía a otra ya que cada una posee niveles jerárquicos diferentes, la ISO ha definido tres modelos relacionados con la calidad en un producto de software (la calidad interna, la calidad externa y la calidad en el empleo)."
+            },
+            {
+              "name":"1.2 Mejora de Calidad", 
+              "content":"La tarea de la calidad puede ser mejorada cada vez más gracias a un proceso iterativo de mejora continua que requiere control de dirección, control y retroalimentación de muchos procesos simultáneos: (1) los procesos de ciclo de vida del software, (2) el proceso de detección de error/defecto, retirada de los mismos y prevención y (3) el proceso de mejora de calidad, estos procesos han sido probados y certificados por expertos en calidad que afirman que la calidad de un producto está directamente relacionada con la calidad del proceso empleado para crearlo."
+            }
+            ]
+          },
+          {
+            "tGroup":"2.  Procesos de Gestión de Calidad del Software",
+            "fund":[
+            {
+              "name":"", 
+              "content":"La gestión de calidad del software (SQM) es de gran importancia y aplicación a todas las perspectivas de procesos de software, productos y recursos, estos consisten en numerosas actividades, algunos de ellos pueden encontrar errores diariamente mientras que otros pueden resultar más bien en valiosas revisiones."
+            }
+            ]
+          },
+          {
+            "tGroup":"3.  Consideraciones Prácticas:",
+            "fund":[
+            {
+              "name":"3.1 Requerimientos de calidad del software", 
+              "content":"Aquí influyen varios factores como la planificación la gestión y selección de actividades SQM y técnicas incluyendo: Donde residirá el software, requerimientos del sistema y del software, los componentes comerciales, estándares , métodos y herramientas de software, el presupuesto y los usuarios implicados  como también el nivel de integridad del sistema."
+            }
+            ]
+          }
+          ]
+        }
+      ]       
     }
   ]
 }
